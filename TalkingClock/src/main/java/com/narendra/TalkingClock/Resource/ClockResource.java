@@ -29,7 +29,7 @@ public class ClockResource {
 	    		  lt=LocalTime.parse(time);
 	      }
 	      catch(Exception e) {
-	    	  System.err.println("Error: " +e);
+	    	  System.err.println("Error is there: " +e);
 	      }
 
 		time=clockService.printWords(lt.getHour(),lt.getMinute());
